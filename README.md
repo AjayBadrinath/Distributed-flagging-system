@@ -14,11 +14,15 @@ social media and the user is flagged and banned from the application after 2 war
 </p>
 
 
+
+
 <p align="center" width="100%">
-    <kbd>
+    
     <img src="https://github.com/AjayBadrinath/Distributed-flagging-system/blob/main/Output_Images/DemoGIF.gif" ></img>
-    </kbd>
+    
 </p>
+
+
 
 
 ## Image Hashing Algorithms
