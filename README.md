@@ -18,7 +18,7 @@ social media and the user is flagged and banned from the application after 2 war
 
 <p align="center" width="100%">
     
-    <img src="https://github.com/AjayBadrinath/Distributed-flagging-system/blob/main/Output_Images/DemoGIF.gif" ></img>
+<img src="https://github.com/AjayBadrinath/Distributed-flagging-system/blob/main/Output_Images/DemoGIF.gif" ></img>
     
 </p>
 
