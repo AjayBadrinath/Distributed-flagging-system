@@ -16,7 +16,7 @@ social media and the user is flagged and banned from the application after 2 war
 
 <p align="center" width="100%">
     <kbd>
-    <img src="https://github.com/iavinash73/Distributed-flagging-system/blob/main/Output_Images/DemoGIF.gif" ></img>
+    <img src="https://github.com/AjayBadrinath/Distributed-flagging-system/blob/main/Output_Images/DemoGIF.gif" ></img>
     </kbd>
 </p>
 
@@ -27,7 +27,7 @@ Image Hashing is a fingerprint of a multimedia file derived from various feature
 
 Image | Image Hash
 -------|-----------
-<img src="https://github.com/iavinash73/Distributed-flagging-system/assets/92035508/2ecc0787-342a-47e2-b676-02a53cd20be2"></img>|<img src="https://github.com/iavinash73/Distributed-flagging-system/assets/92035508/d55e3078-7b45-4375-99eb-2da38a6c17e7"></img>
+<img src="https://github.com/AjayBadrinath/Distributed-flagging-system/assets/92035508/2ecc0787-342a-47e2-b676-02a53cd20be2"></img>|<img src="https://github.com/AjayBadrinath/Distributed-flagging-system/assets/92035508/d55e3078-7b45-4375-99eb-2da38a6c17e7"></img>
 Query Image (Cat) |0xa4ad99b3629076ae
 
 The above is an Example of Image Hashing Where We Query Using an Image and It's Hash is computed on Each Server depending on the algorithm
@@ -66,7 +66,7 @@ ensuring:
 ## System Voting Architecture
 
 <p align="center" width="100%">
-    <img src="https://github.com/iavinash73/Distributed-flagging-system/blob/main/Output_Images/system.png"></img>
+    <img src="https://github.com/AjayBadrinath/Distributed-flagging-system/blob/main/Output_Images/system.png"></img>
 </p>
 
 * Multiple P-Hash Implementation Servers are initialized using PySyncObj and the class is replicated at an IP Address and a Port.
@@ -98,7 +98,7 @@ ensuring:
 * Server type 4 is for Median Hash
    
 ## Make it Work for your Use Case:
-* The DB is initialized with the reference hash of the reference images which is set up here: [Reference DB Images](https://github.com/iavinash73/Distributed-flagging-system/tree/main/backend/static/images)
+* The DB is initialized with the reference hash of the reference images which is set up here: [Reference DB Images](https://github.com/AjayBadrinath/Distributed-flagging-system/tree/main/backend/static/images)
 * Upon server being activated the reference hashes are calculated, so put the reference images you want instead if you want to block a specific type of content.
 * You can initialize any number of servers (This implementation we initialized 4 Servers) with varying hashes and thresholds.
 * A distributed system is more trustworthy but is also slower hence give enough time in between server initializations and voting time for better efficiency **( use time.sleep() in backend for this )**.
