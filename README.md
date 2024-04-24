@@ -27,7 +27,7 @@ Image Hashing is a fingerprint of a multimedia file derived from various feature
 
 Image | Image Hash
 -------|-----------
-<img src="https://github.com/AjayBadrinath/Distributed-flagging-system/assets/92035508/2ecc0787-342a-47e2-b676-02a53cd20be2"></img>|<img src="https://github.com/AjayBadrinath/Distributed-flagging-system/assets/92035508/d55e3078-7b45-4375-99eb-2da38a6c17e7"></img>
+<img src="https://github.com/iavinash73/Distributed-flagging-system/assets/92035508/2ecc0787-342a-47e2-b676-02a53cd20be2"></img>|<img src="https://github.com/iavinash73/Distributed-flagging-system/assets/92035508/d55e3078-7b45-4375-99eb-2da38a6c17e7"></img>
 Query Image (Cat) |0xa4ad99b3629076ae
 
 The above is an Example of Image Hashing Where We Query Using an Image and It's Hash is computed on Each Server depending on the algorithm
